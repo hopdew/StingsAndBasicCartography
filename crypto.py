@@ -41,3 +41,8 @@ def scramble2Decrypt(cipherText):
         # the -1 gets up to the end the fastest
 
     return plainText
+
+def encryptMessage():
+    msg = input("Enter the message to encrypt: ")
+    cipherText = scramble2Encrypt(msg)
+    print("The encrypted message is:", cipherText)

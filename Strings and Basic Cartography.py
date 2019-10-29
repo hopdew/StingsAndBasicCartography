@@ -93,4 +93,6 @@ print(indexToLetter(10))
 
 from crypto import *
 
-print(scramble2Encrypt("im still tired"))
+print(scramble2Decrypt("im still tired"))
+# Change encrypt to decrypt to decrypt
+
