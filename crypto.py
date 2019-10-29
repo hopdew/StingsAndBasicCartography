@@ -37,4 +37,7 @@ def scramble2Decrypt(cipherText):
 
     #if the text is not even
     if len(oddChars) < len(evenChars):
-        plainText = plainText + evenChars[]
+        plainText = plainText + evenChars[-1]
+        # the -1 gets up to the end the fastest
+
+    return plainText
